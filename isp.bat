@@ -1,0 +1,1 @@
+avrdude -c stk500 -p atmega1284 -p COMPORT -b 19200 -U flash:w:filetoburn.hex
